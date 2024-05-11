@@ -12,11 +12,7 @@ set(CMAKE_CXX_STANDARD 11)
 aux_source_directory(src SRC_DIR)
 
 # FOR SILK
-include_directories(src interface test)
-
-include_directories(/home/lyp/env/jdk-21/include)
-
-include_directories(/home/lyp/env/jdk-21/include/linux)
+include_directories(src interface test jni)
 
 
 add_library(silk-codec SHARED

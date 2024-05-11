@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.c.o
+silk-codec-exec
+libsilk-codec.so
+cmake_install.cmake
